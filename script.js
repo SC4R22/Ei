@@ -1,4 +1,3 @@
-// Array of strings (you can replace these with your 200 strings)
 const stringsArray = [
     "حبي لك كنجم ساطع في سماء الليل - ابن زيدون",
     "عيناك مثل قمر في ليلة ساحرة - الرومي",

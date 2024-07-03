@@ -4,60 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ei</title>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
     <style>
-              body {
-            color: #fff;
-            font-family: 'Amiri', serif;
-            background-color: #000000;
+        body {
+            background-color: black;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            text-align: center;
         }
-
-        .cool-button {
-            background-color: #3b3b3b;
-            color: #fff;
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 1.5rem;
+            color: white;
+            background-color: #079097;
             border: none;
-            border-radius: 25px;
-            padding: 15px 30px;
-            font-size: 16px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
         }
-
-        .cool-button:hover {
-            background-color: #3700b3;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-            transform: translateY(-2px);
-        }
-
-        .cool-button:active {
-            background-color: #3700b3;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            transform: translateY(0);
-        }
-
-        #output {
-            font-size: 18px;
-            color: #ffffff;
+        .button:hover {
+            background-color: #056b6b;
         }
     </style>
 </head>
 <body>
-    <button id="generateButton" class="cool-button">اكتب قصيده</button>
-    <div id="output"></div>
-
-    <!-- Include your JavaScript file -->
-    <script src="script.js"></script>
+    <a class="button" href="Poem.html">Poem</a>
+    <a class="button" href="flower.html">Flowers</a>
 </body>
 </html>
